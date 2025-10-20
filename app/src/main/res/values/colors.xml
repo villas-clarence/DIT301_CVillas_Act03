@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Modern Purple-Pink Gradient Theme -->
+    <color name="primary_purple">#FF6B46C1</color>
+    <color name="primary_purple_dark">#FF5A3A9E</color>
+    <color name="accent_pink">#FFE91E63</color>
+    <color name="accent_coral">#FFFF6B6B</color>
+    
+    <!-- Sophisticated Text Colors -->
+    <color name="text_primary">#FF2C3E50</color>
+    <color name="text_secondary">#FF7F8C8D</color>
+    <color name="text_tertiary">#FF95A5A6</color>
+    
+    <!-- Modern Background Colors -->
+    <color name="background_light">#FFF8F9FA</color>
+    <color name="background_soft">#FFF1F3F4</color>
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="card_elevated">#FFFEFEFE</color>
+    <color name="card_modern">#FFF8F9FF</color>
+    <color name="card_soft">#FFF5F7FA</color>
+    
+    <!-- Subtle Accent Colors -->
+    <color name="divider_color">#FFE8EAF6</color>
+    <color name="border_light">#FFE3F2FD</color>
+    <color name="shadow_light">#1A000000</color>
+    
+    <!-- Success and Info Colors -->
+    <color name="success_green">#FF4CAF50</color>
+    <color name="info_blue">#FF2196F3</color>
+    <color name="warning_orange">#FFFF9800</color>
+</resources>

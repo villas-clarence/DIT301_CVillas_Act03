@@ -1,0 +1,41 @@
+<resources>
+    <!-- Profile Name Style -->
+    <style name="ProfileNameText">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Profile Bio Style -->
+    <style name="ProfileBioText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Edit Button Style -->
+    <style name="EditButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/primary_purple</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Profile Picture Style -->
+    <style name="ProfilePictureStyle">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/circle_background</item>
+        <item name="android:clipToOutline">true</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+</resources>
