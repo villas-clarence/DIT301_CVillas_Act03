@@ -19,7 +19,7 @@
         app:cardBackgroundColor="@color/card_modern"
         app:cardCornerRadius="20dp"
         app:cardElevation="12dp"
-        app:layout_constraintEnd_toStartOf="@id/info_card"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -27,18 +27,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp">
-
-            <!-- Profile Picture -->
-            <ImageView
-                android:id="@+id/profile_picture"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:contentDescription="@string/profile_picture_content_description"
-                android:src="@drawable/hannah_profile"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                style="@style/ProfilePictureStyle" />
 
             <!-- User Name -->
             <TextView
@@ -49,7 +37,7 @@
                 android:text="@string/user_name"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/profile_picture"
+                app:layout_constraintTop_toTopOf="parent"
                 style="@style/ProfileNameText" />
 
             <!-- User Bio -->
@@ -78,114 +66,6 @@
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.cardview.widget.CardView>
-
-    <!-- Additional Info Section for Landscape -->
-    <androidx.cardview.widget.CardView
-        android:id="@+id/info_card"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="32dp"
-        app:cardBackgroundColor="@color/card_soft"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/profile_card"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Student Info"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@color/text_primary"
-                android:layout_marginBottom="12dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:weightSum="3">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical"
-                    android:paddingVertical="8dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="3rd Year IT Student"
-                        android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/primary_purple" />
-
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/divider_color"
-                    android:layout_marginVertical="4dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical"
-                    android:paddingVertical="8dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="PUP-Taguig Campus"
-                        android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/accent_pink" />
-
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/divider_color"
-                    android:layout_marginVertical="4dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical"
-                    android:paddingVertical="8dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="K-pop &amp; Emergency Series Fan"
-                        android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/accent_coral" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ProfileUI</string>
-    <string name="user_name">Hannah Lorainne Genandoy</string>
-    <string name="user_bio">3rd year IT student at Polytechnic University of the Philippines-Taguig Campus. I love K-pop and western emergency genre of series.</string>
+    <string name="user_name">Krislyn Janelle Francisco</string>
+    <string name="user_bio">3rd year IT student</string>
     <string name="edit_profile">Edit Profile</string>
-    <string name="profile_picture_content_description">Profile picture of Hannah Lorainne Genandoy</string>
+    <string name="profile_picture_content_description">Profile picture</string>
 </resources>
